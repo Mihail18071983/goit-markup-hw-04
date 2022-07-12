@@ -309,19 +309,19 @@ img {
 }
 
 .icon-antena::before {
-  background-image: url(../image/svg/antenna1.svg);
+  background-image: url(../image/svg/antenna.svg);
 }
 
 .icon-clock::before {
-  background-image: url(../image/svg/clock1.svg);
+  background-image: url(../image/svg/clock.svg);
 }
 
 .icon-diagram::before {
-  background-image: url(../image/svg/diagram1.svg);
+  background-image: url(../image/svg/diagram.svg);
 }
 
 .icon-astronaut::before {
-  background-image: url(../image/svg/astronaut1.svg);
+  background-image: url(../image/svg/astronaut.svg);
 }
 
 .content-tytle {
