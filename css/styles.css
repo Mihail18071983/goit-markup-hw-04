@@ -131,10 +131,13 @@ img {
 }
 
 .contact-mail {
-  margin-right: 50px;
+  /* align-self: center;
+  display: flex;
+  align-items: center; */
+  margin-right: 30px;
 }
 
-.contact-mail::before {
+/* .contact-mail::before {
   content: "";
   display: inline-flex;
   width: 16px;
@@ -146,7 +149,7 @@ img {
   background-image: url(../image/svg/envelope.svg);
   outline: 1px solid red;
   margin-right: 10px;
-}
+} */
 
 .menu-item:not(:last-child) {
   margin-right: 50px;
@@ -185,8 +188,39 @@ img {
   color: var(--main-color);
 }
 
-.mail-ref:hover {
+.mail-ref:hover,
+.mail-ref:focus {
   color: var(--accent-color);
+}
+
+.mail-ref {
+  display: flex;
+}
+
+.mail-icon {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  order: -1;
+  align-self: center;
+}
+
+.mail-icon:hover,
+.mail-icon:focus {
+  fill: var(--accent-color);
+}
+
+.phone-ref {
+  align-self: center;
+  align-self: center;
+  display: flex;
+}
+
+.phone-icon {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  order: -1;
 }
 
 /* header end */
@@ -207,6 +241,7 @@ img {
     url(../image/hero-image.jpg);
   background-position: center;
   background-repeat: no-repeat;
+  background-size: contain;
   /* background-size: 1600px auto; */
 }
 
@@ -398,6 +433,9 @@ img {
 .team-item {
   background-color: var(--main-light-color);
   width: 270px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .work-pos {
