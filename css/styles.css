@@ -576,3 +576,34 @@ img {
   flex-wrap: wrap;
   gap: 30px;
 }
+
+.footer-wrap {
+  display: flex;
+}
+
+.adress-footer-wraper  {
+  margin-right: 70px;
+}
+ 
+
+.social-footer-tytle {
+  color: var(--main-light-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.in-footer {
+  background-color: rgba(255, 255, 255, 0.1);
+  color:var(--main-light-color)
+} 
+
+.in-footer:hover, .in-footer:focus {
+background-color: var(--accent-color);
+}
+
+
+
