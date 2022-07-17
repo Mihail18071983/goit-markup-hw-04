@@ -446,9 +446,7 @@ img {
   padding: 30px 0;
 }
 
-/* .team-item > img {
-  margin-bottom: 30px;
-} */
+
 
 .team-list {
   display: flex;
@@ -497,6 +495,90 @@ img {
 }
 
 /* team-end */
+
+/* clients */
+
+.clients {
+  background-color: var(--main-bc-color);
+}
+
+.clients-tytle {
+  color:var(--secondary-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+
+.clients-list {
+  display: flex;
+}
+
+ .clients-item:not(:last-child) {
+   margin-right: 30px;
+ }
+
+.clients-link {
+  color:#AFB1B8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  }
+
+.clients-link:hover,
+.clients-link:focus {
+  color:var(--accent-color);
+  border:1px solid var(--accent-color);
+
+}
+
+ 
+.clients-icon {
+  fill:currentColor;
+}
+
+
+.first {
+  width: 41px;
+  height:47px;
+}
+
+.second {
+  width: 40px;
+  height: 52px;
+}
+
+.third {
+  width: 43px;
+  height: 41px;
+}
+
+.fourth {
+  width: 84px;
+  height: 41px;
+}
+
+.fifth {
+width: 63px;
+height: 45px;
+}
+
+.sixth {
+  width: 94px;
+  height: 44px;
+}
+
+
+.clients-icon:hover, 
+.clients-icon:focus {
+  fill:var(--accent-color);
+}
 
 /* main end */
 
