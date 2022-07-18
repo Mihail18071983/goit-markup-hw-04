@@ -14,7 +14,7 @@
   --secondary-bc-color: #2f303a;
   --border-color: #ececec;
   --sec-border-color: #eeeeee;
-  --icon-color:#AFB1B8
+  --icon-color:#AFB1B8;
   
 
   /* paddings */
@@ -467,7 +467,7 @@ img {
 }
 
 .social-network-link {
-  background-color: var(--main-light-color);
+  background-color: rgba(255, 255, 255, 0.1);
   color: var(--icon-color);
   border-radius: 50%;
   display: flex;
@@ -661,6 +661,7 @@ height: 45px;
 
 .footer-wrap {
   display: flex;
+  align-items: baseline;
 }
 
 .adress-footer-wraper  {
@@ -679,7 +680,7 @@ height: 45px;
 }
 
 .in-footer {
-  background-color: rgba(255, 255, 255, 0.1);
+  
   color:var(--main-light-color)
 } 
 
