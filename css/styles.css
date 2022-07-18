@@ -197,6 +197,7 @@ img {
 
 .mail-ref {
   display: flex;
+  justify-content: center;
 }
 
 .mail-icon {
@@ -213,9 +214,8 @@ img {
 }
 
 .phone-ref {
-  align-self: center;
-  align-self: center;
   display: flex;
+  align-items: center;
 }
 
 .phone-icon {
