@@ -208,12 +208,13 @@ img {
   margin-right: 10px;
   order: -1;
   align-self: center;
+  fill:currentColor;
 }
 
-.mail-icon:hover,
+/* .mail-icon:hover,
 .mail-icon:focus {
-  fill: var(--accent-color);
-}
+  fill: currentColor;
+}  */
 
 .phone-ref {
   display: flex;
