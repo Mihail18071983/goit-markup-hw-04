@@ -5,11 +5,12 @@
 
   /* Colors */
   --main-dark-color: #000;
-  --main-light-color: #fff;
+  --main-light-color: #E5E5E5;
+  --secondary-light-color:#ffffff;
+  --fird-light-color: #f5f4fa;
   --accent-color: #2196f3;
   --main-color: #757575;
   --secondary-color: #212121;
-  --fird-color: #f5f4fa;
   --main-bc-color: #e5e5e5;
   --secondary-bc-color: #2f303a;
   --border-color: #ececec;
@@ -95,7 +96,7 @@ img {
 
 /* header */
 .header {
-  background-color: var(--main-light-color);
+  background-color: var(--secondary-light-color);
   border-bottom: 1px solid var(--border-color);
   padding-top: 25px;
   padding-bottom: 25px;
@@ -211,11 +212,7 @@ img {
   fill:currentColor;
 }
 
-/* .mail-icon:hover,
-.mail-icon:focus {
-  fill: currentColor;
-}  */
-
+ 
 .phone-ref {
   display: flex;
   align-items: center;
@@ -305,11 +302,15 @@ img {
   cursor: pointer;
   font-family: inherit;
   color: var(--main-dark-color);
-  background-color: var(--fird-color);
+  background-color: var(--fird-light-color);
   padding: 6px 22px;
   border: none;
   border-radius: 4px;
   display: block;
+}
+
+.peculiarities {
+  background-color: var(--main-light-color);
 }
 
 .peculiarities-list,
@@ -325,8 +326,7 @@ img {
 
 .peculiarities-item {
   width: 270px;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+  
 }
 
 .peculiarities-item:not(:last-child) {
@@ -344,7 +344,7 @@ img {
   height: 120px;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: var(--fird-color);
+  background-color: var(--fird-light-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 4px;
   margin-bottom: 30px;
@@ -391,6 +391,10 @@ img {
   padding-top: 0;
 }
 
+.actyvity {
+background-color: var(--main-light-color);
+}
+
 .actyvity-tytle,
 .team-tytle {
   font-family: inherit;
@@ -416,7 +420,7 @@ img {
 /* team */
 
 .team {
-  background-color: var(--fird-color);
+  background-color: var(--fird-light-color);
 }
 
 .team-hero {
@@ -499,9 +503,6 @@ img {
 
 /* clients */
 
-.clients {
-  background-color: var(--main-light-color);
-}
 
 .clients-tytle {
   color: var(--secondary-color);
@@ -620,6 +621,10 @@ img {
 /* footer end */
 
 /* main p2 */
+
+.portfolio {
+  background-color: var(--main-light-color);
+}
 
 .exemple-sign {
   font-weight: 700;
