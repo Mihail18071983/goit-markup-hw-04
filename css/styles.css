@@ -305,7 +305,7 @@ img {
   letter-spacing: 0.03em;
   cursor: pointer;
   font-family: inherit;
-  color: var(--main-dark-color);
+  color: var(--secondary-dark-color);
   background-color: var(--second-light-color);
   padding: 6px 22px;
   border: none;
