@@ -5,12 +5,11 @@
 
   /* Colors */
   --main-dark-color: #000;
-  --main-light-color: #e5e5e5;
-  --secondary-light-color: #ffffff;
-  --fird-light-color: #f5f4fa;
+  --main-light-color: #ffffff;
+  --second-light-color: #f5f4fa;
   --accent-color: #2196f3;
   --main-color: #757575;
-  --secondary-color: #212121;
+  --secondary-dark-color: #212121;
   --main-bc-color: #e5e5e5;
   --secondary-bc-color: #2f303a;
   --border-color: #ececec;
@@ -96,7 +95,6 @@ img {
 
 /* header */
 .header {
-  background-color: var(--secondary-light-color);
   border-bottom: 1px solid var(--border-color);
   padding-top: 25px;
   padding-bottom: 25px;
@@ -309,7 +307,7 @@ img {
   cursor: pointer;
   font-family: inherit;
   color: var(--main-dark-color);
-  background-color: var(--fird-light-color);
+  background-color: var(--second-light-color);
   padding: 6px 22px;
   border: none;
   border-radius: 4px;
@@ -350,7 +348,7 @@ img {
   height: 120px;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: var(--fird-light-color);
+  background-color: var(--second-light-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 4px;
   margin-bottom: 30px;
@@ -426,7 +424,7 @@ img {
 /* team */
 
 .team {
-  background-color: var(--fird-light-color);
+  background-color: var(--second-light-color);
 }
 
 .team-hero {
