@@ -5,8 +5,8 @@
 
   /* Colors */
   --main-dark-color: #000;
-  --main-light-color: #E5E5E5;
-  --secondary-light-color:#ffffff;
+  --main-light-color: #e5e5e5;
+  --secondary-light-color: #ffffff;
   --fird-light-color: #f5f4fa;
   --accent-color: #2196f3;
   --main-color: #757575;
@@ -209,13 +209,17 @@ img {
   margin-right: 10px;
   order: -1;
   align-self: center;
-  fill:currentColor;
+  fill: currentColor;
 }
 
- 
 .phone-ref {
   display: flex;
   align-items: center;
+}
+
+.phone-ref:hover,
+.phone-ref:focus {
+  color: var(--accent-color);
 }
 
 .phone-icon {
@@ -223,7 +227,8 @@ img {
   height: 16px;
   margin-right: 10px;
   order: -1;
-  }
+  fill: currentColor;
+}
 
 /* header end */
 
@@ -243,7 +248,9 @@ img {
     url(../image/hero-image.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 /* .overlay {
@@ -326,7 +333,6 @@ img {
 
 .peculiarities-item {
   width: 270px;
-  
 }
 
 .peculiarities-item:not(:last-child) {
@@ -392,7 +398,7 @@ img {
 }
 
 .actyvity {
-background-color: var(--main-light-color);
+  background-color: var(--main-light-color);
 }
 
 .actyvity-tytle,
@@ -502,7 +508,6 @@ background-color: var(--main-light-color);
 /* team-end */
 
 /* clients */
-
 
 .clients-tytle {
   color: var(--secondary-color);
@@ -661,7 +666,12 @@ background-color: var(--main-light-color);
   gap: 30px;
 }
 
-.exemple-item:hover {
+.exemple-link {
+  display: block;
+}
+
+.exemple-link:hover,
+.exemple-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
